@@ -5,3 +5,4 @@ Linus Domeyer
 Tobias Burgmaier
 Ben Vollmer
 Kostiantyn Balakhanov
+René Kipp
