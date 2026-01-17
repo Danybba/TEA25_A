@@ -1,6 +1,7 @@
 Daniel Schäftner
 Simon Amper
 Fabian Thiele
+Christina Kaiser
 Linus Domeyer
 Tobias Burgmaier
 Ben Vollmer
