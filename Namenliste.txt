@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Daniel Schäftner
 Simon Amper
@@ -18,3 +19,6 @@ Tim Weishaupt
 Simon Lämmle
 Fabienne Fechter
 Test
+=======
+Daniel Schäftner
+>>>>>>> origin/develop
