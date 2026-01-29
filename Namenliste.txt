@@ -3,4 +3,5 @@ Alexander Hoppe
 Simon Amper
 René Kipp
 Vinzenz Eierstock
+Moritz Reich
 Linus Domeyer
