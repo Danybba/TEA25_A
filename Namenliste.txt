@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Daniel Schäftner
 Simon Amper
@@ -22,3 +23,7 @@ Test
 =======
 Daniel Schäftner
 >>>>>>> origin/develop
+=======
+Daniel Schaeftner!!!
+René Kipp
+>>>>>>> develop
