@@ -5,3 +5,4 @@ René Kipp
 Moritz Reich
 Linus Domeyer
 Simon Lämmle
+Fabian Thiele
