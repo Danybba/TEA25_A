@@ -1,5 +1,29 @@
-Daniel Schaeftner!!!
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Daniel Schäftner
 Simon Amper
-René Kipp
-Linus Domeyer
 Fabian Thiele
+Christina Kaiser
+Linus Domeyer
+Tobias Burgmaier
+Ben Vollmer
+Kostiantyn Balakhanov
+René Kipp
+Moritz Reich
+Lena Zeh
+Mustafa Sipahi
+Quang Schulz
+Sebastian Hacker
+Tim Weishaupt
+Simon Lämmle
+Fabienne Fechter
+Test
+=======
+Daniel Schäftner
+>>>>>>> origin/develop
+=======
+Daniel Schaeftner!!!
+René Kipp
+>>>>>>> develop
