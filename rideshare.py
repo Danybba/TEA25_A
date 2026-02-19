@@ -1,10 +1,6 @@
 ride_type = input("What type of ride would you like to take? (standard, plus, comfort)\n")
-if ride_type == "standard":
-    print("You have selected a standard ride.")
-elif ride_type == "plus":
-    print("You have selected a plus ride.")
-elif ride_type == "comfort":
-    print("You have selected a comfort ride.")
+if ride_type == "standard" or ride_type == "plus" or ride_type == "comfort":
+    print(f"You have selected a {ride_type} ride.")
 else:
     print("Invalid ride type selected. Please choose standard, plus, or comfort.")
     exit()
@@ -14,8 +10,9 @@ try:
     credits = float(credits)
     if credits < 0:
         print("Credits cannot be negative.")
+        exit()
     else:
-        print(f"You have {credits} credits available.")
+        print(f"You have {credits} remaining credits.")
 except ValueError:
     print("Invalid input for credits. Please enter a number.")
     exit()
