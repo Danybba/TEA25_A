@@ -28,17 +28,24 @@ var2 = "Schäftner"
 vorname = "Daniel"
 nachname = "Schäftner"
 
-var1 = 1 # 0b0000 0001
-var2 = 2.1
-var3 = "Dany"
+var_1 = 1 # 0b0000 0001
+var_2 = 2.1
+var_3 = "Dany"
 
 var1 = "gleich  !  "
 var2 = "feierabend"
 
-var = "test " + var1 + var2 + 5
+var = var_1 + 5
 
 print(var)
 
+stadt = "Friedrichshafen"
+campus = "DHBW"
+
+powered_on = True
+powered_off = False
+
+print(not powered_off)
 
 
 
