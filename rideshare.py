@@ -13,7 +13,7 @@ try:
         exit()
     else:
         print(f"You have {credits} remaining credits.")
-except ValueError:
+except:
     print("Invalid input for credits. Please enter a number.")
     exit()
 
