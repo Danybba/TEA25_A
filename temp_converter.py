@@ -1,4 +1,8 @@
-### Temperature Converter
+#########################
+# Temperature Converter #
+#########################
+# author: Linus
+# brief: A simple temperature converter that converts between Celsius, Fahrenheit, and Kelvin.
 
 # Constants for temperature conversion
 ABSOLUTE_ZERO_C = -273.15
