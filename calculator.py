@@ -1,3 +1,6 @@
+# import functions as f
+from functions import calculator
+
 """
 Input:
 1. Zahle: 137
@@ -21,45 +24,25 @@ Das Ergebnis der Rechenoperation ist: 27.4
 # Usermenue input                                #
 ##################################################
 
-number_1 = float(input("1. Zahl: "))
-number_2 = float(input("2. Zahl: "))
-operation = input("Addieren? (+), Subtrahieren? (-), Multiplizieren? (*), Dividieren? (/): ")
+loop = True
 
-#################################################
-# Calculation                                   #
-#################################################
+while loop:
 
-result = 0
-error = False
+    number_1 = float(input("1. Zahl: "))
+    number_2 = float(input("2. Zahl: "))
+    operation = input("Addieren? (+), Subtrahieren? (-), Multiplizieren? (*), Dividieren? (/), exit to quit: ")
 
-# Add
-if operation == '+':
-    result = number_1 + number_2
+    if operation == 'exit':
+        loop = False
 
-# Sub
-elif operation == '-':
-    result = number_1 - number_2
+    #################################################
+    # Calculation                                   #
+    #################################################
 
-# Mult
-elif operation == '*':
-    result = number_1 * number_2
+    result = calculator(number_1, number_2, operation)
 
-# Div
-elif operation == '/':
-    try:
-        result = number_1 / number_2
-    except:
-        error = True
+    #################################################
+    # Result output                                 #
+    #################################################
 
-# wrong operation
-else:
-    error = True
-
-#################################################
-# Result output                                 #
-#################################################
-
-if not error:
     print(f"Das Ergebnis ist: {result}")
-else:
-    print("Rechenoperation nicht unterstützt!")
