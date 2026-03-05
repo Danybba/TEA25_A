@@ -1,10 +1,12 @@
+### Temperature Converter
+
+# Constants for temperature conversion
 ABSOLUTE_ZERO_C = -273.15
 CONVERSION_K_C = -273.15
 CONVERSION_FACTOR_F_C = 5/9
 CONVERSION_OFFSET_F_C = -32
 
-
-# Temparature and Unit Input
+# Temperature and Unit Input
 try:
     temp_in_value = temp_value = float(input('Enter temperature:\n'))
 except:
