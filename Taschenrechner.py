@@ -1,22 +1,57 @@
-zahl1 = input("Geben Sie die erste Zahl ein: ")
-zahl2 = input("Geben Sie die zweite Zahl ein: ")
-rechenoperator = input("Geben Sie den Rechenoperator ein (Addieren(+), Subtrahieren(-), Multiplizieren (*), Subtrahieren (/)): ")
+##################################################
+##                                              ##
+## Taschenrechner / Calculator                  ##
+##                                              ##
+##################################################
 
-ergebnis = 0
+# author: 31.01.2022 Daniel Schäftner
+# brief: Calculator with 4 basic operations
 
-if rechenoperator == "+":
-    ergebnis = float(zahl1) + float(zahl2)
+##################################################
+# Usermenue input                                #
+##################################################
 
-elif rechenoperator == "-":
-    ergebnis = float(zahl1) - float(zahl2)
+number_1 = int(input("1. Zahl: "))
+number_2 = int(input("2. Zahl: "))
+operation = input("Addieren? (+), Subtrahieren? (-), Multiplizieren? (*), Dividieren? (/): ")
 
-elif rechenoperator == "*":
-    ergebnis = float(zahl1) * float(zahl2)
+#################################################
+# Calculation                                   #
+#################################################
 
-elif rechenoperator == "/":
+result = 0
+error = False
+
+# Add
+if operation == '+':
+    result = number_1 + number_2
+
+# Sub
+elif operation == '-':
+    result = number_1 - number_2
+
+# Mult
+elif operation == '*':
+    result = number_1 * number_2
+
+# Div
+elif operation == '/':
+    # create error for division with zero 
     try: 
-         ergebnis = float(zahl1) / float(zahl2)
+        result = number_1 / number_2
     except ZeroDivisionError:
-         ergebnis = "Division durch Null ist nicht erlaubt."
+        error = True
 
-print(f"Das Ergebnis der Berechnung ist: {ergebnis}")
+
+# wrong operation
+else:
+    error = True
+
+#################################################
+# Result output                                 #
+#################################################
+
+if not error:
+    print(f"Das Ergebnis ist: {result}")
+else:
+    print("Rechenoperation nicht unterstützt!")
