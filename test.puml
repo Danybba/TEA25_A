@@ -2,4 +2,6 @@
 Bob -> Alice : hello wie gehts dir 
 Alice -> Bob : gut danke und dir
 Bob -> Alice : auch gut danke
+John -> Alice : hey wie gehts dir
+Alice -> John : gut danke und dir
 @enduml
