@@ -1,0 +1,5 @@
+@startuml
+Bob -> Alice : hello wie gehts dir 
+Alice -> Bob : gut danke und dir
+Bob -> Alice : auch gut danke
+@enduml
